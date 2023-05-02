@@ -1,7 +1,7 @@
 const Body = () => {
     return (
         <>
-        <div className="flex flex-col w-56">
+<div className="flex flex-col w-56">
 		<button className="group border-t border-r border-l border-none focus:outline-none">
 			<div className="flex items-left justify-between h-12 px-3 font-semibold hover:bg-red-600">
 				<span className="truncate">= Mahora</span>
@@ -17,16 +17,19 @@ const Body = () => {
 		</button>
 		</div>
         <hr/>
-        <h1 className="text-xl font-bold lg:flex justify-center"> MAHORA</h1>
+        <h1 className="text-xl font-bold lg:flex justify-center">  <img  className="h-10 w-10 vertical-align: text-top"
+        src= "https://s1.narvii.com/image/f7hv44tw6fbwbirtrdy24wnz6qbm2sjz_hq.jpg "></img>MAHORA</h1>
+       
         <div className=" w-full">
         <small className="flex justify-center">Tienda de productos orientales</small>
         <br/>
         <small className="flex justify-center h-100">Abierto hasta las 21:00</small>
         </div>
-        
-        </>
-      
-    )
-  }
+            
 
-  export default Body;
+        </>
+
+    )
+}
+
+export default Body;
