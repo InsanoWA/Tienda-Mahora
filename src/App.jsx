@@ -1,26 +1,34 @@
-import Header from "./components/Header/Header";
-import Body from "./components/Body/Body";
-import BotonPedir from "./components/BotonPedir/BotonPedir";
-import ImgCentral from "./components/ImgCentral/ImgCentral";
-import Informacion from "./components/Informacion/Informacion";
-import Comunicarse from "./components/Comunicarse/Comunicarse";
-import PieDePagina from "./components/PieDePagina/PieDePagina";
-function App() {
-  
+import Header from "./components/Header";
+import Body from "./components/Body";
+import BotonPedir from "./components/BotonPedir";
+import ImgCentral from "./components/ImgCentral";
+import Informacion from "./components/Informacion";
+import Galeria from "./components/Galeria";
+import Comunicarse from "./components/Comunicarse";
+import PieDePagina from "./components/PieDePagina";
 
-  return (
+function App() {
+   return (
     <>
+    <div className="">
     <Header />
+      
+      <div>
       <Body/>
       <BotonPedir/>
-     <ImgCentral/>
+      <ImgCentral/>
      <Informacion/>
+     <br/>
+     <Galeria/>
      <br/>
      <Comunicarse/>
      <br/>
-        <PieDePagina/>
+        
       
-    </>
+      </div>
+      <PieDePagina/>
+    </div>
+     </>
   );
 };
 
