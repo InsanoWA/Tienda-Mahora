@@ -10,12 +10,11 @@ import PieDePagina from "./components/PieDePagina";
 function App() {
    return (
     <>
-    <div className="">
-    <Header />
-      
-      <div>
+    <div >
+    <Header  />
+     <div>
       <Body/>
-      <BotonPedir/>
+     <BotonPedir/>
       <ImgCentral/>
      <Informacion/>
      <br/>
@@ -23,9 +22,7 @@ function App() {
      <br/>
      <Comunicarse/>
      <br/>
-        
-      
-      </div>
+        </div>
       <PieDePagina/>
     </div>
      </>
