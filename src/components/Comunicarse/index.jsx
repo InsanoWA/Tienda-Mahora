@@ -2,7 +2,7 @@ const Comunicarse = () => {
     return (
         
         <div id="contacto">
-        <h1  className="flex justify-center">COMUNÍCATE CON NOSOTROS</h1>
+        <h1  className=" text-xl font-sans antialiased underline    flex justify-center">COMUNÍCATE CON NOSOTROS</h1>
             <br />
             <img 
             class="mx-auto" 
