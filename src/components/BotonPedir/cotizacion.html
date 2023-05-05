@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/components/BotonPedir/pedir.css" rel="stylesheet">
+    <title>FORMULARIO DE COMPRA</title>
+</head>
+<body>
+    <div className="min-h-screen bg-[#F2F4FE] flex items-center justify-center p-4" >
+        <div className="max-w-lg">
+            <div>
+              <image src="/src/assets/images/mahora.jpeg"  width={50} height={50}  />
+            </div>
+<div class="bg-white w-full rounded-lg p-8 mb-8" >
+<div class="flex flex-col items-center gap-1 mb-8">
+    <h1 class="text-xl text-gray-900" >Pedir Cotizacion</h1>
+<p class="text-gray-400 text-sm" >llene el siguiente formulario por favor<br/>
+    Atendemos las 24 horas del dia</p>
+</div>
+<form  action="/login.php" id="formulario" >
+    <p>
+        <input
+        id="nombre"
+            type="text"
+            name="nombre"
+            placeholder="Nombre"
+            autocomplete="of"  required/>
+        </p>
+        <p>
+        <input
+        id="telefono"
+        type="number"
+        name="telefono"
+        placeholder="Numero de telefono"
+        autocomplete="of"  required/>
+    </p>
+      <p>
+        <input
+        id="correo"
+        type="email"
+       name="correo"
+        placeholder="Correo electronico"
+        autocomplete="of"  required
+      />
+    </p>
+      <br/>
+       <p>
+        <texfield>*Se requiere una direccion de correo valida</texfield>
+        <br/>
+        <label>Enque podemos Ayudarte</label>
+        <br/>
+    </p>
+      <p>
+            <textarea rows="3" maxlength="100" id="mensaje"></textarea>
+            <div id="contador">0/100</div> 
+        </p>
+        <input 
+        class="enviar"
+        type="submit" value="ENVIAR">
+        <button class="btn-reset" type="reset" value="Reset">Limpiar formulario</button>
+    </form>
+</div>
+ </div>
+    </div>
+
+    <script type="module" src="/src/components/BotonPedir/contador.js"></script>
+   </body>
+</html>
