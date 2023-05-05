@@ -23,10 +23,10 @@ const Body = () => {
         <h1 className="text-xl font-bold lg:flex justify-center">  <img  className="h-50 w-30 vertical-align: text-top"
         src={mahora}></img></h1>
        
-        <div className=" w-full">
-        <small className="flex justify-center">Tienda de productos orientales</small>
-        <br/>
-        <small className="flex justify-center h-100">Abierto hasta las 21:00</small>
+        <div className=" whitespace-normal">
+        <p className=" capitalize  flex justify-center text-stone-950">Tienda de productos orientales</p>
+       
+        <p className=" capitalize  flex justify-center text-stone-950 ">Abierto hasta las 21:00</p>
         </div>
             
 
