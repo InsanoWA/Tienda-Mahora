@@ -16,6 +16,7 @@ const Body = () => {
 				<a className="flex items-left h-8 px-4 text-sm hover:bg-neutral-300" href="#seccion5">Quienes Somos</a>
 				<a className="flex items-left h-8 px-4 text-sm hover:bg-neutral-300" href="#galery">Galeria</a>
 				<a className="flex items-left h-8 px-4 text-sm hover:bg-neutral-300" href="#contacto">Contacto</a>
+				<a className="flex items-left h-8 px-4 text-sm hover:bg-neutral-300" href=""></a>
 			</div>
 		</button>
 		</div>
