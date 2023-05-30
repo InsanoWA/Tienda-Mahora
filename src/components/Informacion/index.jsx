@@ -7,6 +7,7 @@ const Informacion = () => {
         </div>
 
     )
+
 }
 
 export default Informacion;
