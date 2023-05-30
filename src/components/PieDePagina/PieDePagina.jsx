@@ -111,7 +111,7 @@ const PieDePagina = () =>{
                 <td><span>10:00-21:00</span></td>
               </tr>
               <tr>
-                <th>dom:</th>
+                <th>domingo:</th>
                 <td><span>10:00-21:00</span></td>
               </tr>
             </tbody>

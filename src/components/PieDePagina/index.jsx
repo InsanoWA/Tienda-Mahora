@@ -86,32 +86,32 @@ const PieDePagina = () => {
                 <table>
                   <tbody>
                     <tr>
-                      <th>lun:</th>
+                      <th>Lunes:</th>
                       <td><span>10:00-21:00</span>
                       </td>
                     </tr>
                     <tr>
-                      <th>mar:</th>
+                      <th>Martes:</th>
                       <td><span>10:00-21:00</span></td>
                     </tr>
                     <tr>
-                      <th>mié:</th>
+                      <th>Miercoles:</th>
                       <td><span>10:00-21:00</span></td>
                     </tr>
                     <tr>
-                      <th>jue:</th>
+                      <th>Jueves:</th>
                       <td><span>10:00-21:00</span></td>
                     </tr>
                     <tr>
-                      <th>vie:</th>
+                      <th>Viernes:</th>
                       <td><span>10:00-21:00</span></td>
                     </tr>
                     <tr>
-                      <th>sáb:</th>
+                      <th>Sabado:</th>
                       <td><span>10:00-21:00</span></td>
                     </tr>
                     <tr>
-                      <th>dom:</th>
+                      <th>Domingo:</th>
                       <td><span>10:00-21:00</span></td>
                     </tr>
                   </tbody>
